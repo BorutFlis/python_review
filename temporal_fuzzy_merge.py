@@ -18,5 +18,7 @@ yearly_df["group"] = [groups[np.random.randint(len(groups))] for i in range(len(
 
 # task 1a: merge df with yearly_df based on yearly difference
 # task 1b: merge df with yearly_df that merges on group before
+# task 1c: merge df with yearly so that you keep datetime of both dfs and
+#          calculate actual distance
 # task 2: write function to ffilna if difference less than one year
 

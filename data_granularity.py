@@ -24,4 +24,5 @@ shifts_df["startTime"] = shifts_df.apply(lambda x: re.sub("^(\d{2})", add_constr
 # task 2: expand to selections level data-frame, ensure it has market level id and does not have column name confussion
 # task 3: expand to value level data-frame
 # task 4: change back to initial market-level granularity
-# task 5: expand endTime - startTime
+# task 5: Do 1-3 with json normalize
+# task 6: expand endTime - startTime
